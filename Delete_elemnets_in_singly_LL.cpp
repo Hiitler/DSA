@@ -36,7 +36,7 @@ void DeleteNode(Node* head, int position){
     {
         head->next =temp;
         head->next = NULL;
-        delete head;
+        delete head;;
         head = temp;
     }
     int count = 0;
